@@ -138,9 +138,9 @@ nav .fa{
 }
 
 
-/*-----course-----*/
+/*-----service-----*/
 
-.course{
+.service{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -157,7 +157,7 @@ p{
     font-size: 14px;    
     font-weight: 300;
     line-height: 22px;
-    padding: 10px;
+    padding: 70px;
 }
 
 .row{
@@ -167,7 +167,7 @@ p{
     justify-content: space-between;
 }
 
-.course-col{
+.service-col{
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
@@ -183,7 +183,7 @@ h3{
     margin: 10ox 0;
 }
 
-.course-col:hover{
+.service-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
@@ -192,21 +192,21 @@ h3{
         flex-direction: column;
     }
 
-    .course-col{
+    .service-col{
         flex-basis: 100%;
     }
 }
 
-/*-----campus-----*/
+/*-----office-----*/
 
-.campus{
+.office{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.campus-col{
+.office-col{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -214,7 +214,7 @@ h3{
     overflow: hidden;
 }
 
-.campus-col img{
+.office-col img{
     width: 100%;
     display: block;
 }
@@ -253,7 +253,7 @@ h3{
 
 /*-----facilities-----*/
 
-.facilities{
+/* .facilities{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -281,7 +281,7 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
-}
+} */
 
 /*-----testimonials-----*/
 .testimonials{
